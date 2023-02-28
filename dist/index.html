@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        margin: 0;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: darkslategray;
+        color: lightblue;
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    #canvas {
+        background-color: #181840a0;
+        image-rendering: pixelated;
+        width: min(90vw, 90vh);
+        height: min(90vw, 90vh);
+        margin-top: min(5vw, 5vh);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid hsla(0,100%,100%,0.3) 2px;
+    }
+</style>
+
+<head>
+    <script src="index.js" type="module"></script>
+    <title>Tron</title>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+
+</html>
